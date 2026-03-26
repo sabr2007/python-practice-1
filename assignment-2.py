@@ -13,7 +13,7 @@ while product_name != "done":
     subtotal += price
     product_name = input("Enter product name (or done to finish): ")
 
-print("\n")
+print()
 print("Customer :", name.upper())
 print(f"Items : {items}")
 print(f"Subtotal : {subtotal} KZT")
@@ -36,4 +36,4 @@ print(f"Name uppercase : {name.upper()}")
 print(f"Name lowercase : {name.lower()}")
 print(f"Name length : {len(name)}")
 
-print("Short name") if len(name) < 5 else print("Long name")
+print("Short name") if len(name) <= 5 else print("Long name")
