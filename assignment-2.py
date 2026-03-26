@@ -13,6 +13,7 @@ while product_name != "done":
     subtotal += price
     product_name = input("Enter product name (or done to finish): ")
 
+print("\n")
 print("Customer :", name.upper())
 print(f"Items : {items}")
 print(f"Subtotal : {subtotal} KZT")
