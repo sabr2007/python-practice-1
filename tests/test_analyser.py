@@ -1,3 +1,47 @@
+# python3 -m unittest tests/test_analyser.py -v
+# test_analyse_twice (tests.test_analyser.TestAnalyser) ... ------------------------------
+# Lambda / Map / Filter
+# ------------------------------
+# GPA > 3.8 : 1
+# GPA values (first 5) : [3.8, 2.5, 3.9, 1.8, 3.5]
+# study_hours_per_day > 4 : 1
+# ------------------------------
+# ------------------------------
+# Lambda / Map / Filter
+# ------------------------------
+# GPA > 3.8 : 1
+# GPA values (first 5) : [3.8, 2.5, 3.9, 1.8, 3.5]
+# study_hours_per_day > 4 : 1
+# ------------------------------
+# ok
+# test_result_has_required_keys (tests.test_analyser.TestAnalyser) ... ------------------------------
+# Lambda / Map / Filter
+# ------------------------------
+# GPA > 3.8 : 1
+# GPA values (first 5) : [3.8, 2.5, 3.9, 1.8, 3.5]
+# study_hours_per_day > 4 : 1
+# ------------------------------
+# ok
+# test_result_is_not_empty (tests.test_analyser.TestAnalyser) ... ------------------------------
+# Lambda / Map / Filter
+# ------------------------------
+# GPA > 3.8 : 1
+# GPA values (first 5) : [3.8, 2.5, 3.9, 1.8, 3.5]
+# study_hours_per_day > 4 : 1
+# ------------------------------
+# ok
+# test_total_students (tests.test_analyser.TestAnalyser) ... ------------------------------
+# Lambda / Map / Filter
+# ------------------------------
+# GPA > 3.8 : 1
+# GPA values (first 5) : [3.8, 2.5, 3.9, 1.8, 3.5]
+# study_hours_per_day > 4 : 1
+# ------------------------------
+# ok
+# ----------------------------------------------------------------------
+# Ran 4 tests in 0.000s
+# OK
+
 import unittest
 from analytics.analyser import GpaAnalyser
 
